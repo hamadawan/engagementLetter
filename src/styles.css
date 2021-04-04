@@ -1,0 +1,78 @@
+.padding10 {
+    padding: 10px 16px !important;
+    border-bottom: 1px solid #e6e5e5 !important;
+}
+.main-container .MuiFormControl-fullWidth {
+    margin: 0 !important;
+}
+/* ----------Radio option---------- */
+/* .radio-option ul {
+    margin: 0;
+} */
+.radio-option ul li .MuiRadio-root {
+    padding: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    /* padding-right: 15px; */
+}
+.radio-option ul li label .MuiFormControlLabel-label {
+    font-size: 13px;
+    color: #4e4cac;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.radio-option ul li .Mui-checked .MuiIconButton-label span {
+    background: #9291ca;
+    width: 20px;
+    height: 20px;
+    box-shadow: none;
+}
+.radio-option ul li label .MuiIconButton-label span {
+    background: #d7d6e9;
+    width: 20px;
+    height: 20px;
+    box-shadow: none;
+}
+.radio-option ul li .Mui-checked .MuiIconButton-label span::before {
+    width: 20px;
+    height: 20px;
+    background-image: radial-gradient(#4e4cac, #4e4cac 28%, transparent 32%);
+}
+.radio-option ul li label .MuiIconButton-label span::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: radial-gradient(#efeef6, #efeef6 28%, transparent 32%);
+}
+.bodyTxt {
+    height: 100px !important;
+    overflow: hidden;
+    margin-top: 35px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.lblaudit {
+    color: #4c4c4dd1 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    font-family: 'Rubik', sans-serif !important;
+}
+.bottom {
+    border-bottom: 1px solid lightgrey;
+    margin-top: 24px;
+}
+.mtb20 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.buttonaudit {
+    padding: 5px 40px !important;
+    font-family: 'Rubik', sans-serif !important;
+}
+.btnAuditDiv {
+    margin-top: 15px;
+    margin-left: 7px;
+}
