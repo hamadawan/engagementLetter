@@ -47,12 +47,15 @@
     background-image: radial-gradient(#efeef6, #efeef6 28%, transparent 32%);
 }
 .bodyTxt {
-    height: 100px !important;
-    overflow: hidden;
+    height: 150px !important;
+    overflow-y: scroll;
     margin-top: 35px;
     border-top: 0;
     border-left: 0;
     border-right: 0;
+}
+.ck.ck-editor__editable_inline>:first-child {
+    height: 70px;
 }
 .lblaudit {
     color: #4c4c4dd1 !important;
